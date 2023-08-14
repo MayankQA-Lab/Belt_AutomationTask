@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-14T11:30:55 IST" name="Default suite" finished-at="2023-08-14T11:31:00 IST" duration-ms="5666">
+    <groups>
+    </groups>
+    <test started-at="2023-08-14T11:30:55 IST" name="Default test" finished-at="2023-08-14T11:31:00 IST" duration-ms="5666">
+      <class name="com.test.api.APITest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.api.APITest@55b53d44]" started-at="2023-08-14T11:30:55 IST" name="setup" finished-at="2023-08-14T11:30:56 IST" duration-ms="818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_01_GetListOfPetsWithValidStatus()[pri:0, instance:com.test.api.APITest@55b53d44]" started-at="2023-08-14T11:30:56 IST" name="TC_01_GetListOfPetsWithValidStatus" description="Verify GET api response for valid Status" finished-at="2023-08-14T11:30:59 IST" duration-ms="3540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_GetListOfPetsWithValidStatus -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.api.APITest@55b53d44]" started-at="2023-08-14T11:30:59 IST" name="setup" finished-at="2023-08-14T11:30:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_02_GetListOfPetsWithInvalidStatus()[pri:1, instance:com.test.api.APITest@55b53d44]" started-at="2023-08-14T11:30:59 IST" name="TC_02_GetListOfPetsWithInvalidStatus" description="Verify GET api response for invalid Status" finished-at="2023-08-14T11:31:00 IST" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_GetListOfPetsWithInvalidStatus -->
+      </class> <!-- com.test.api.APITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
